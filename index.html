@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="todo.js" defer></script>
+    <script src="drag.js" defer></script>
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="board">
+        <form id="todo-form">
+    <input type="text" placeholder="ADD TODO" id="todo-input"/>
+    <button type="submit"> ADD+</button>
+  </form>
+<div class="lanes">
+    <div class="swim-lane" id="todo-lane">
+     <h3 class="heading">Todo</h3>
+     <p class="task" draggable="true">writing notes</p>
+     <p class="task" draggable="true">reading book</p>
+      <p class="task" draggable="true">writing juronals</p>
+</div>
+    <div class="swim-lane" >
+        <h3 class="heading">In Progress</h3>
+        <p class="task" draggable="true">already written</p>
+        <p class="task" draggable="true">writing notes</p>
+
+   
+   
+   
+   
+       </div>
+       <div class="swim-lane">
+        <h3 class="heading">Done</h3>
+        <p class="task" draggable="true">making notes</p>
+        <p class="task" draggable="true">reading</p>
+         <p class="task" draggable="true">writing</p>
+   
+   
+   
+   
+       </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
